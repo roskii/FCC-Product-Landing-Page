@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Steven Roberts">
+    <meta name="description" content="Project #3 of freeCodeCamp's Responsive Web Design course - Product Landing Page">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">   
+    <title>Product Landing Page</title>
+
+</head>
+<body>
+
+
+<header id="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 mt-2">
+                <div class="header-center">
+                    <img id="header-img" src="https://i.imgur.com/hLgVtBT.png" alt="Monzo Coffee Co." height="25" ><h1> Monzo Coffee Co.</h1>                 
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mainmenu-belowheader menu-center">
+        <nav id="nav-bar" class="navbar navbar-expand-lg navbar-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto ">
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link py-0">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#shop" class="nav-link py-0">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link py-0">Contact</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav nav-flex-icons">
+                    <li class="nav-item">
+                        <a href="#signup" class="nav-link py-0"><i class="fas fa-user-plus"></i> Sign Up</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#login" class="nav-link py-0"><i class="fas fa-sign-in-alt"></i> Login</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<section id="newsletter">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-10 mt-5 pt-5 mb-3">
+                <h2>The Best Single Origin African Coffee, Delivered To You</h2>
+            </div>    
+            <div class="col-md-8 mt-3 pt-3">              
+                <h5><em>Sign up now to get monthly offers, tips and rewards</em></h5>          
+            </div>   
+            <div class="col-md-8 mb-5 pb-5">  
+                <form id="form" action="https://www.freecodecamp.com/email-submit">
+                    <div class="input-group m-4 w-60 mx-auto">
+                    <input id="email" type="email" name="email" class="form-control" placeholder="Enter your email address..." required>
+                    <a href="https://www.freecodecamp.com/email-submit">
+                        <input id="submit" type="submit" value="Sign Up" class="btn btn-outline-info ml-3">
+                    </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="container-fluid my-image">
+    <img class="img-fluid" src="https://i.imgur.com/Y5nDFIh.jpg" alt="coffee image courtesy Nathan Dumlao" class="img-responsive">
+</div>
+  
+<section id="shop">
+    <div class="container">
+        <div class="row justify-content-around">
+            <div class="col-md-10 mt-5 mb-3">
+                <h3>Current Single Origin Range</h3>
+            <hr>
+            </div>           
+            <div class="card" style="width:300px ">
+                <img class="card-img-top" src="https://i.imgur.com/1STPDWj.png" alt="Card image">
+                <div class="card-body">
+                <h4 class="card-title img-fluid">Rwandan Teasia</h4>
+                <p class="card-text"></p>
+                    <ul>
+                        <li>Acidity: complex, cranberry</li>
+                        <li>Roast: light-medium</li>
+                        <li>Brewing: pourover, siphon</li>
+                    </ul>
+                    <h4 class="card-price">ZAR 75.00 /250g</h4>
+                <a href="#" class="btn btn-outline-info mt-3">Select Options</a>
+                </div>
+            </div>
+            <div class="card" style="width:300px">
+                <img class="card-img-top img-fluid" src="https://i.imgur.com/OOoOjzQ.png" alt="Card image">
+                <div class="card-body">
+                <h4 class="card-title">Ugandan Bugiso</h4>
+                <p class="card-text"></p>
+                    <ul>
+                        <li>Acidity: balanced, berry</li>
+                        <li>Roast: dark</li>
+                        <li>Brewing: versatile</li>
+                    </ul>
+                    <h4 class="card-price">ZAR 85.00 /250g</h4>
+                <a href="#" class="btn btn-outline-info mt-3">Select Options</a>
+                </div>
+            </div>
+            <div class="card" style="width:300px">
+                <img class="card-img-top img-fluid" src="https://i.imgur.com/uD1xtjO.png" alt="Card image">
+                <div class="card-body">
+                <h4 class="card-title">Zimbabwean Majero</h4>
+                <p class="card-text"></p>
+                    <ul>
+                        <li>Acidity: soft, red apple</li>
+                        <li>Roast: medium</li>
+                        <li>Brewing: aeropress, chemex</li>
+                    </ul>
+                    <h4 class="card-price">ZAR 95.00 /250g</h4>
+                <a href="#" class="btn btn-outline-info mt-3">Select Options</a>
+                </div>
+            </div>   
+        </div>
+    </div> 
+</section>
+
+<section id="about">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-10 mt-5 mb-3">
+                <h3>Going Directly To The Source</h3>
+                <hr>
+            </div>
+            <div class="col-md-8 mb-5">
+                <div class="embed-responsive embed-responsive-16by9 hoverable">
+                    <iframe id="video" class="embed-responsive-item" src="https://www.youtube.com/watch?v=eb62xdASRsE" width= "100%" height="500px" allowfullscreen sandbox></iframe>
+                </div>
+            </div>    
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="row text-center">
+                <div class="col-lg-12 mt-1">Copyright © 2020 Monzo Coffee Company (Pty) Ltd</div>
+            </div>
+        </div>        
+       </footer>
+</section>
+
+<section id="signup">
+</section>
+<section id="login">
+</section>
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+</body>
+</html>

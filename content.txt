@@ -1,0 +1,34 @@
+//HEADER
+
+Logo - <i class="fab fa-bandcamp"></i>
+
+Monzo
+
+Shop
+
+About 
+
+Contact
+
+Sign Up
+
+Login
+
+
+//SECTION - Features
+
+Single Origin African Coffee Beans
+
+Monthly Rotation of Different African Coffees
+
+Free delivery to your door
+
+
+//SECTION - About
+
+https://www.youtube.com/watch?v=eb62xdASRsE
+
+
+//SECTION - Shop
+
+Cards
